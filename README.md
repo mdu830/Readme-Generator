@@ -23,12 +23,15 @@
     2. cd into Readme-Generator directory.
 </ul>
 <ul>
-    3. type "npm install" in terminal.n/
+    3. type "npm install" in terminal.
 </ul>
 
 ### Usage:
 <ul>
-    simply type "node readme-gen" (inside the Readme-Generator directory) to start the application. Then fill out each answer and when you are done a readme(new).md is placed inside the Readme-Generator directory 
+    Simply type "node readme-gen" in terminal (inside the Readme-Generator directory) to start the application. Then fill out each answer and when you are done a readme(new).md is placed inside the Readme-Generator directory 
+</ul>
+<ul>
+    *video link*
 </ul>
 
 ### Testing:
