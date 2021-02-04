@@ -17,7 +17,13 @@
     
 ### Installation:
 <ul>
-    1. Install node js. \n2. cd into Readme-Generator directory. \n3. type "npm install" in terminal.
+    1. Install node js.
+</ul>
+<ul>
+    2. cd into Readme-Generator directory.
+</ul>
+<ul>
+    3. type "npm install" in terminal.n/
 </ul>
 
 ### Usage:
