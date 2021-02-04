@@ -30,9 +30,9 @@
 <ul>
     Simply type "node readme-gen" in terminal (inside the Readme-Generator directory) to start the application. Then fill out each answer and when you are done a readme(new).md is placed inside the Readme-Generator directory 
 </ul>
-<ul>
-    *video link*
-</ul>
+
+![demo](/app-walkthrough.gif)
+
 
 ### Testing:
 <ul>
