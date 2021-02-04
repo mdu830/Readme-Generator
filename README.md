@@ -28,8 +28,10 @@
 
 ### Usage:
 <ul>
-    In terminal, cd into the Readme-Generator directory. To start the application type: "node readme-gen". Then fill out each answer. Once you are done, a "readme(new).md" is generated inside the Readme-Generator directory!
+    In terminal, cd into the Readme-Generator directory. To start the application type: "node readme-gen". Then fill out each answer. Once you are done, a        "readme(new).md" is generated inside the Readme-Generator directory!
 </ul>
+
+video walkthrough: https://youtu.be/1aMwEHGAVEE
 
 ![demo](/app-walkthrough.gif)
 
