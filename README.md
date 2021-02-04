@@ -33,7 +33,7 @@
 
 video walkthrough: https://youtu.be/1aMwEHGAVEE
 
-![demo](/app-walkthrough.gif)
+![demo](/examples/app-walkthrough.gif)
 
 
 ### Testing:
