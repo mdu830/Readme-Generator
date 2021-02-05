@@ -6,7 +6,7 @@
 ### Description: 
 
 <ul>
-    This applictation is designed to help developers generate a quality readme for their projects, instead of typing them out each time.
+    This applictation is designed to help developers quickly generate a quality readme markdown for their projects.
 </ul>
 
 ### Table of Contents
@@ -28,11 +28,11 @@
 
 ### Usage:
 <ul>
-    Simply type "node readme-gen" in terminal (inside the Readme-Generator directory) to start the application. Then fill out each answer and when you are done a readme(new).md is placed inside the Readme-Generator directory 
+    In terminal, cd into the Readme-Generator directory. To start the application type: "node readme-gen". Then fill out each answer. Once you are done, a "readme(new).md" is generated inside the Readme-Generator directory!
 </ul>
-<ul>
-    *video link*
-</ul>
+
+![demo](/app-walkthrough.gif)
+
 
 ### Testing:
 <ul>
