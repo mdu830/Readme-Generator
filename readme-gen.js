@@ -5,11 +5,11 @@ const Choices = require('inquirer/lib/objects/choices');
 inquirer.prompt([
     {
         type: "input",
-        message: "What is the name of your appilcation?",
+        message: "What would you like the readme title to be?",
         name: "appTitle",
         validate: function (answer) {
             if (answer.length < 1) {
-                return console.log("You need to have a name for your application.");
+                return console.log("You need to have a name for your readme title.");
             }
             return true;
         }
@@ -101,7 +101,20 @@ inquirer.prompt([
             }
             return true;
         }
+    },
+    {
+        type: "list", 
+        message: "what license did you choose for your project? (same as when repo was created)",
+        choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
+        name: "license",
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("You must enter a valid license.");
+            }
+            return true;
+        }
     }
+    
     
     
 ]).then(response => {
@@ -121,6 +134,7 @@ const readMe =`
 * [Usage](#usage)
 * [Testing](#testing)
 * [Contributors](#contributors)
+* [License](#License)
     
 ### Installation:
 <ul>
@@ -140,6 +154,11 @@ const readMe =`
 #### Contributors:
 
 [@${response.appContribute}](https://api.github.com/users/${response.appContribute})
+
+#### License
+<ul>
+    ${response.license}
+</ul>
 
 #### Questions?
 
