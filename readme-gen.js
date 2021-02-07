@@ -1,8 +1,12 @@
+// Import inquirer module
 const inquirer = require('inquirer');
+// Import file system
 const fs = require('fs');
+// Import Inquirer Choices module
 const Choices = require('inquirer/lib/objects/choices');
 
 inquirer.prompt([
+    // Questions
     {
         type: "input",
         message: "What would you like the readme title to be?",
@@ -118,6 +122,7 @@ inquirer.prompt([
     
     
 ]).then(response => {
+    // Generate readme mark down
 const readMe =`
 # ${response.appTitle}
 
@@ -146,21 +151,21 @@ const readMe =`
     ${response.appUsage}
 </ul>
 
+### License
+<ul>
+    This application is covered under the ${response.license}
+</ul>
+
+### Contributors:
+
+[@${response.appContribute}](https://api.github.com/users/${response.appContribute})
+
 ### Testing:
 <ul>
     ${response.appTest}
 </ul>
 
-#### Contributors:
-
-[@${response.appContribute}](https://api.github.com/users/${response.appContribute})
-
-#### License
-<ul>
-    ${response.license}
-</ul>
-
-#### Questions?
+### Questions?
 
 If you have any questions, feel free to contact me at:
 
