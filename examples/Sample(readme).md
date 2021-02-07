@@ -6,7 +6,7 @@
 ### Description: 
 
 <ul>
-    This applictation is designed to help developers generate a quality readme for their projects, instead of typing them out each time.
+    This applictation is designed to help developers quickly generate a quality readme markdown for their projects.
 </ul>
 
 ### Table of Contents
@@ -14,6 +14,7 @@
 * [Usage](#usage)
 * [Testing](#testing)
 * [Contributors](#contributors)
+* [License](#License)
     
 ### Installation:
 <ul>
@@ -23,24 +24,29 @@
     2. cd into Readme-Generator directory.
 </ul>
 <ul>
-    3. type "npm install" in terminal.n/
+    3. type "npm install" in terminal... And That's it!
 </ul>
 
 ### Usage:
 <ul>
-    simply type "node readme-gen" (inside the Readme-Generator directory) to start the application. Then fill out each answer and when you are done a readme(new).md is placed inside the Readme-Generator directory 
+    In terminal, cd into the Readme-Generator directory. To start the application type: "node readme-gen". Then fill out each answer. Once you are done, a "readme(new).md" is generated inside the Readme-Generator directory!
 </ul>
 
-### Testing:
+### License
 <ul>
-    --node version
+    This application is covered under the GNU GPLv3
 </ul>
 
-#### Contributors:
+### Contributors:
 
 [@mdu830](https://api.github.com/users/mdu830)
 
-#### Questions?
+### Testing:
+<ul>
+    There are currently no tests for this application
+</ul>
+
+### Questions?
 
 If you have any questions, feel free to contact me at:
 
