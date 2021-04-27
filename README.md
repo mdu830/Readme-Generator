@@ -6,7 +6,7 @@
 ### Description: 
 
 <ul>
-    This applictation is designed to help developers quickly generate a quality readme markdown for their projects.
+    This application is designed to help developers quickly generate a quality readme markdown for their projects.
 </ul>
 
 ### Table of Contents
